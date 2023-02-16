@@ -1,0 +1,23 @@
+{
+  "name": "tzcloud-micro-app",
+  "version": "1.0.0",
+  "description": "Tzcloud micro-frontend solution",
+  "main": "lib/micro-app.js",
+  "module": "lib/micro-app.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test:parse": "node src/__test__/parseHTML.test.js"
+  },
+  "repository": "https://gitee.com/ecanspace/tzcloud-micro-frontend.git",
+  "author": "Ecan Chen",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/plugin-transform-runtime": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "rollup": "^2.61.1"
+  },
+  "files": [
+    "lib"
+  ]
+}
